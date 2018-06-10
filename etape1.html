@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>GAME </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+
+  <!-- lien de (JavaScripts) -->
+  <script type="text/jscript" src="js/blackJack.js">  </script>
+</head>
+
+<body class="bg-light">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">Start GAME !</a>
+          <button class="navbar-toggler navbar-toggler-right collapsed"> Menu<i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#"> How to play ? </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#"> Documentation </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      </header>
+
+      <!-- About Section -->
+      <section  class="content-section">
+        <div class="container ">
+          <div class="row">
+
+            <div class="col-lg-4 mx-auto  col-md-6  col-sm-4 mt-5 ">
+              <form class="form-control bg-light text-center mt-5" id="formContact" onsubmit="formGame(); return false;">
+
+                <div class=" form-group  "><!--field to insert age-->
+                  <label> Enter a number from 1 to 10 : </label>
+
+                    <input class="form-control text-center "  id="younamber" type="number" name="number" max="10" min="1">
+                </div>
+
+
+              <input class="btn btn-primary my-2 my-sm-3 " type="submit" value="GO">
+
+
+                  <div id="youResult"></div>
+                    <label> Machine number : </label>
+                  <div  id="machineNumber"></div>
+
+                    <div class="col-xs-6 col-sm-4"></div>
+                    </div>
+                    <div class="container ">
+                      <div class="row">
+
+                        <div class="col-lg-4 mx-auto mt-5 text-center ">
+                    <div id="finalResult"></div>
+                          </div>
+                                </div>
+                                      </div>
+              </form>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
